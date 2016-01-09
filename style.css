@@ -1,0 +1,85 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+header{
+    height: 200px;
+    background-color: #3F4996;
+
+}
+.headear2{
+    height: 200px;
+    background-color: #3F4996;
+    background-image: url("RKXZvX.png");
+    background-size: 320px 199px;
+}
+.mainCard{
+    width: auto;
+    height: 69%;
+    background-color:#1D224B;
+
+}
+.iconEffects{
+    fill: #A5AEF0;
+    color:#A5AEF0;
+    font-size: 15px;
+}
+.mainCard1{
+    background-color:#1D224B;
+    width: 55%;
+    height: 70%;
+}
+.border{
+box-shadow: none;
+border-right: 1px solid #171B3E;
+border-top: 1px solid #171B3E;
+}
+.widthHeight{
+    /*width: 1250px;*/
+    /*min-width: 1250px;*/
+}
+img{
+    height: 99%;
+    width: 100%;
+    border-bottom:2px solid;
+
+}
+.fontEffects{
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.fontEffects1{
+    font-size: 15px;
+    color: #61BDEE;
+}
+.imgRadius{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+
+}
+.img-radius{
+
+
+}
+.round{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: -200px;
+    outline: none;
+}
+.halfDiv{
+    height: 150px;
+    width: 640px;
+    background-color:#4DC2FF;
+}
+.halfDiv1{
+    height: 150px;
+    width: 640px;
+    background-color: #FF7FE5;
+}
+.fillColor{
+    fill:  #474E5A
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="bower_components/angular-material/angular-material.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-material/angular-material.js"></script>
+    <script src="bower_components/angular-material-icons/angular-material-icons.js"></script>
+
+    <script src="./app.js"></script>
+</head>
+<body ng-app="materialApp" ng-controller="AppCtrl as mtCtrl">
+<header>
+    <div layout="column" layout-align="center start">
+        <md-button ng-click="toggleRight()"
+                   ng-hide="isOpenRight()"
+                   class="md-primary">
+            <ng-md-icon icon="menu" style="fill:white" size="40"></ng-md-icon>
+        </md-button>
+        <div layout="row" layout-align="start center" layout-margin>
+
+            <div>
+                <img src="6879_944362028952793_4641187719182685883_n.jpg" class="imgRadius">
+            </div>
+            <div class="fontEffects" layout="column">
+                <div>Jennifer Wilson</div>
+                <div class="fontEffects1"><b>UI/UX Designer</b></div>
+            </div>
+        </div>
+
+    </div>
+</header>
+<div layout="column" layout-align="center center">
+
+    <div layout="row">
+    <span class="halfDiv">
+
+    </span>
+
+    <span class="halfDiv1">
+
+    </span>
+    </div>
+    <span class="round" layout="row" layout-align="center center" ng-click=""><ng-md-icon icon="add" size="40"  class="fillColor"></ng-md-icon></span>
+
+</div>
+
+
+<section layout="row" flex>
+
+
+    <md-sidenav class="md-sidenav-left md-whiteframe-z2 widthHeight" md-component-id="right">
+        <header class="headear2" layout="row">
+            <span layout="row" layout-align="start center" layout-margin> <img
+                    src="6879_944362028952793_4641187719182685883_n.jpg" class="imgRadius"></span>
+            <span class="fontEffects" flex layout="row" layout-align="start center">Jennifer Wilson</span>
+
+        </header>
+        <md-content class="mainCard" layout-padding>
+
+            <div layout="row">
+                <ng-md-icon icon="dashboard" class="iconEffects" size="40"></ng-md-icon>
+                <span class="md-headline iconEffects" layout-padding>Dashboard</span>
+            </div>
+
+            <md-card class="mainCard1 border">
+
+                <md-card-actions layout="row" layout-align="start center">
+                    <ng-md-icon icon="logout" class="iconEffects" size="40"></ng-md-icon>
+                    <md-button class="iconEffects">Logout</md-button>
+
+                </md-card-actions>
+            </md-card>
+        </md-content>
+    </md-sidenav>
+</section>
+<!--<header></header>-->
+
+
+</body>
+</html>
