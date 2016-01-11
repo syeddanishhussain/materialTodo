@@ -62,7 +62,7 @@ angular
             var useFullScreen = ($mdMedia('sm') || $mdMedia('xs'))  && $scope.customFullscreen;
             $mdDialog.show({
                 controller: DialogController,
-                templateUrl: 'dialog.input.html',
+                templateUrl: 'views/dialog.input.html',
                 parent: angular.element(document.body),
                 targetEvent: ev,
                 clickOutsideToClose:true,
