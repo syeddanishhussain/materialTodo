@@ -25,7 +25,7 @@
         <div layout="row" layout-align="start center" layout-margin>
 
             <div>
-                <img src="6879_944362028952793_4641187719182685883_n.jpg" class="imgRadius">
+                <img src="../10004010_616141291784942_1325521122_n.jpg" class="imgRadius img1" ng-click="showAdvanced($event)">
             </div>
             <div class="fontEffects" layout="column">
                 <div>Jennifer Wilson</div>
@@ -35,23 +35,40 @@
 
     </div>
 </header>
-<div layout="column" layout-align="center center">
 
     <div layout="row">
-    <span class="halfDiv">
-<p layout="row" layout-align="center center">danish</p>
+    <span class="halfDiv" layout="row" layout-align="center center" flex>
+        <span layout="column">
+            <span class="Pcolor" layout="row" layout-align="center center">12</span>
+            <span class="Pcolor1">Remaining tasks</span>
+        </span>
     </span>
 
-    <span class="halfDiv1"  >
-
-
+    <span class="halfDiv1" layout="row" layout-align="center center" flex>
+        <span layout="column">
+            <span class="Pcolor" layout="row" layout-align="center center">32</span>
+            <span class="Pcolor1">Completed Tasks</span>
+        </span>
     </span>
 
     </div>
-    <span class="round" layout="row" layout-align="center center" ng-click=""><ng-md-icon icon="add" size="40"  class="fillColor"></ng-md-icon></span>
+    <div  layout="row" layout-align="center start">
+        <span class="round" ng-click="showAdvanced1($event)"  layout="row" layout-align="center center"><ng-md-icon icon="add" size="40" class="fillColor"></ng-md-icon></span>
+    </div>
 
+
+<div layout-margin layout-padding>
+    <span class="Today" layout-margin layout-padding><b layout-margin layout-padding>Today</b></span>
+    <ul>
+        <img src="../fulllist.jpg" class="float">
+        <li class="mariginPadding1">Finish Landing page concept</li>
+        <li class="mariginPadding">Design app illustration</li>
+        <li class="mariginPadding">Javascript training</li>
+        <li class="mariginPadding">Surprise Party for Matt </li>
+
+    </ul>
 </div>
-
+    <!--sidenavbar-->
 
 <section layout="row" flex>
 
@@ -59,7 +76,7 @@
     <md-sidenav class="md-sidenav-left md-whiteframe-z2 widthHeight" md-component-id="right">
         <header class="headear2" layout="row">
             <span layout="row" layout-align="start center" layout-margin> <img
-                    src="6879_944362028952793_4641187719182685883_n.jpg" class="imgRadius"></span>
+                    src="../10004010_616141291784942_1325521122_n.jpg" class="imgRadius img1" ng-click="showAdvanced($event)"></span>
             <span class="fontEffects" flex layout="row" layout-align="start center">Jennifer Wilson</span>
 
         </header>

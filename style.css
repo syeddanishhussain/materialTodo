@@ -15,7 +15,7 @@ header{
 }
 .mainCard{
     width: auto;
-    height: 69%;
+    height: 77%;
     background-color:#1D224B;
 
 }
@@ -37,8 +37,17 @@ border-top: 1px solid #171B3E;
 .widthHeight{
     /*width: 1250px;*/
     /*min-width: 1250px;*/
+    height: 130%;
 }
-img{
+md-backdrop{
+    height: 130%;
+}
+
+ul
+{
+    list-style-type: none;
+}
+.img1{
     height: 99%;
     width: 100%;
     border-bottom:2px solid;
@@ -72,14 +81,57 @@ img{
 }
 .halfDiv{
     height: 150px;
-    width: 640px;
+    /*width: 640px;*/
     background-color:#4DC2FF;
 }
 .halfDiv1{
     height: 150px;
-    width: 640px;
+    /*width: 640px;*/
     background-color: #FF7FE5;
 }
 .fillColor{
     fill:  #474E5A
 }
+.Pcolor{
+    color: white;
+    font-size: 40px;
+}
+.Pcolor1{
+    color: white;
+    font-size: 25px;
+}
+.Today{
+    color: #8693A1;
+    font-size: 25px;
+}
+.margins{
+    margin-top: -0.5%;
+}
+.float{
+    float: left;
+
+}
+.mariginPadding{
+    margin-top:7.5%;
+    margin-left: 7%;
+    color: #3D4750;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.mariginPadding1{
+    margin-top: 0.5%;
+    color: #3D4750;
+    margin-left: 7%;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.dialogdemoBasicUsage #popupContainer {
+    position: relative; }
+.dialogdemoBasicUsage .footer {
+    width: 100%;
+    text-align: center;
+    margin-left: 20px; }
+.dialogdemoBasicUsage .footer, .dialogdemoBasicUsage .footer > code {
+    font-size: 0.8em;
+    margin-top: 50px; }
